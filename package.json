@@ -1,0 +1,20 @@
+{
+  "name": "nuxt-on-docker",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/mya-ake/nuxt-on-docker.git",
+  "author": "mya-ake <make.app.ts@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "cross-env NODE_ENV=development nodemon server/index.js --watch ."
+  },
+  "dependencies": {
+    "consola": "^2.6.2",
+    "cross-env": "^5.2.0",
+    "express": "^4.17.0",
+    "nuxt": "^2.7.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.0"
+  }
+}
