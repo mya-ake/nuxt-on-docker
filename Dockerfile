@@ -9,6 +9,7 @@ COPY . .
 ARG NODE_ENV
 ARG HOST
 
+RUN echo ${NODE_ENV}
 RUN yarn install
 
 EXPOSE 3000

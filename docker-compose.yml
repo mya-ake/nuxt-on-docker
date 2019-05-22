@@ -4,6 +4,8 @@ services:
   web:
     build:
       context: .
+      args:
+        NODE_ENV: development
     environment:
       - NODE_ENV=development
       - HOST=0.0.0.0
