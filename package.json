@@ -6,7 +6,7 @@
   "author": "mya-ake <make.app.ts@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "dev": "cross-env NODE_ENV=development nodemon server/index.js --watch ."
+    "dev": "cross-env NODE_ENV=development nodemon server/index.js --watch server app"
   },
   "dependencies": {
     "consola": "^2.6.2",
